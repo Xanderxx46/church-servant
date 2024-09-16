@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@buape/carbon": "^0.1.1",
+    "@buape/carbon-linked-roles": "^0.1.1",
+    "wrangler": "^3.73.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240821.1"
+  },
+  "scripts": {
+    "build": "wrangler deploy",
+    "tail": "wrangler tail"
+  }
+}
